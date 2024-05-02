@@ -20,6 +20,12 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
+## Try it on Stackblitz
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/AdamDCosta/chat-streaming-example)
+
+It will error on first load - this is because it will be missing the OpenAI api key.
+
 ## OpenAI api key
 
 You'll need to create a .env file and add the following:
@@ -36,7 +42,7 @@ OPENAI_API_KEY=<your key here>
 - markdown-it to transform the markdown returned from the OpenAI response into HTML. The `@tailwindcss/typography` plugin has some nice classes for styling this content.
 - Lucide for icons
 
-### /server
+### The Server
 
 The api directory has two endpoints. One for posting new messages, and one to stream the responses from the OpenAI api to the client (`chat.get.ts`).
 
