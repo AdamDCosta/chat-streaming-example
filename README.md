@@ -20,12 +20,6 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-## Try it on Stackblitz
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/AdamDCosta/chat-streaming-example)
-
-It will error on first load - this is because it will be missing the OpenAI api key.
-
 ## OpenAI api key
 
 You'll need to create a .env file and add the following:
