@@ -20,6 +20,14 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
+## OpenAI api key
+
+You'll need to create a .env file and add the following:
+
+```
+OPENAI_API_KEY=<your key here>
+```
+
 ## The Code
 
 ### /server
